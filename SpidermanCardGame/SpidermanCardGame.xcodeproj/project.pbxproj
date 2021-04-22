@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848AE973263210B7009783A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AE972263210B7009783A5 /* AppDelegate.swift */; };
+		848AE975263210B7009783A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AE974263210B7009783A5 /* SceneDelegate.swift */; };
+		848AE97A263210B7009783A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848AE978263210B7009783A5 /* Main.storyboard */; };
+		848AE97C263210BB009783A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848AE97B263210BB009783A5 /* Assets.xcassets */; };
+		848AE97F263210BB009783A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848AE97D263210BB009783A5 /* LaunchScreen.storyboard */; };
+		848AE9902632160C009783A5 /* Spiderman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AE98F2632160C009783A5 /* Spiderman.swift */; };
+		848AE993263218C3009783A5 /* SpidermanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AE992263218C3009783A5 /* SpidermanController.swift */; };
+		848AE99926322722009783A5 /* SpidermanCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AE99826322722009783A5 /* SpidermanCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		848AE96F263210B7009783A5 /* SpidermanCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpidermanCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848AE972263210B7009783A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848AE974263210B7009783A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		848AE979263210B7009783A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848AE97B263210BB009783A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848AE97E263210BB009783A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848AE980263210BB009783A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848AE98F2632160C009783A5 /* Spiderman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spiderman.swift; sourceTree = "<group>"; };
+		848AE992263218C3009783A5 /* SpidermanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpidermanController.swift; sourceTree = "<group>"; };
+		848AE99826322722009783A5 /* SpidermanCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpidermanCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848AE96C263210B7009783A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848AE966263210B7009783A5 = {
+			isa = PBXGroup;
+			children = (
+				848AE971263210B7009783A5 /* SpidermanCardGame */,
+				848AE970263210B7009783A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848AE970263210B7009783A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848AE96F263210B7009783A5 /* SpidermanCardGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848AE971263210B7009783A5 /* SpidermanCardGame */ = {
+			isa = PBXGroup;
+			children = (
+				848AE98C26321305009783A5 /* Models */,
+				848AE98B263212FF009783A5 /* Controllers */,
+				848AE98A263212F8009783A5 /* Views */,
+				848AE989263212EC009783A5 /* Storyboards */,
+				848AE987263212D1009783A5 /* Resources */,
+			);
+			path = SpidermanCardGame;
+			sourceTree = "<group>";
+		};
+		848AE987263212D1009783A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				848AE972263210B7009783A5 /* AppDelegate.swift */,
+				848AE974263210B7009783A5 /* SceneDelegate.swift */,
+				848AE97B263210BB009783A5 /* Assets.xcassets */,
+				848AE980263210BB009783A5 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		848AE989263212EC009783A5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				848AE97D263210BB009783A5 /* LaunchScreen.storyboard */,
+				848AE978263210B7009783A5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		848AE98A263212F8009783A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				848AE98D26321318009783A5 /* CustomCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		848AE98B263212FF009783A5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				848AE99626322489009783A5 /* Model Controllers */,
+				848AE9952632247C009783A5 /* View Controllers */,
+				848AE992263218C3009783A5 /* SpidermanController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		848AE98C26321305009783A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				848AE98F2632160C009783A5 /* Spiderman.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		848AE98D26321318009783A5 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		848AE9952632247C009783A5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				848AE99826322722009783A5 /* SpidermanCollectionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		848AE99626322489009783A5 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848AE96E263210B7009783A5 /* SpidermanCardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848AE983263210BB009783A5 /* Build configuration list for PBXNativeTarget "SpidermanCardGame" */;
+			buildPhases = (
+				848AE96B263210B7009783A5 /* Sources */,
+				848AE96C263210B7009783A5 /* Frameworks */,
+				848AE96D263210B7009783A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpidermanCardGame;
+			productName = SpidermanCardGame;
+			productReference = 848AE96F263210B7009783A5 /* SpidermanCardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848AE967263210B7009783A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					848AE96E263210B7009783A5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 848AE96A263210B7009783A5 /* Build configuration list for PBXProject "SpidermanCardGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848AE966263210B7009783A5;
+			productRefGroup = 848AE970263210B7009783A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848AE96E263210B7009783A5 /* SpidermanCardGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848AE96D263210B7009783A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848AE97F263210BB009783A5 /* LaunchScreen.storyboard in Resources */,
+				848AE97C263210BB009783A5 /* Assets.xcassets in Resources */,
+				848AE97A263210B7009783A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848AE96B263210B7009783A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848AE973263210B7009783A5 /* AppDelegate.swift in Sources */,
+				848AE975263210B7009783A5 /* SceneDelegate.swift in Sources */,
+				848AE99926322722009783A5 /* SpidermanCollectionViewController.swift in Sources */,
+				848AE9902632160C009783A5 /* Spiderman.swift in Sources */,
+				848AE993263218C3009783A5 /* SpidermanController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		848AE978263210B7009783A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848AE979263210B7009783A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848AE97D263210BB009783A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848AE97E263210BB009783A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848AE981263210BB009783A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848AE982263210BB009783A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848AE984263210BB009783A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpidermanCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Semisi-Taufa.SpidermanCardGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848AE985263210BB009783A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpidermanCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Semisi-Taufa.SpidermanCardGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848AE96A263210B7009783A5 /* Build configuration list for PBXProject "SpidermanCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848AE981263210BB009783A5 /* Debug */,
+				848AE982263210BB009783A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848AE983263210BB009783A5 /* Build configuration list for PBXNativeTarget "SpidermanCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848AE984263210BB009783A5 /* Debug */,
+				848AE985263210BB009783A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848AE967263210B7009783A5 /* Project object */;
+}
